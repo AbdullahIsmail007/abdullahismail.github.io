@@ -1,0 +1,88 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header */
+.hero {
+    background: #0d6efd;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    margin-bottom: 20px;
+}
+
+.job-title {
+    font-weight: bold;
+    color: #ffe066;
+}
+
+.summary {
+    margin: 10px 0 20px;
+}
+
+.contact {
+    list-style: none;
+    padding: 0;
+}
+
+.contact li {
+    margin: 5px 0;
+}
+
+.contact a {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    margin: 40px 0;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+h2 {
+    color: #0d6efd;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: disc inside;
+    padding-left: 20px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #eee;
+    color: #555;
+    font-size: 0.9rem;
+}
